@@ -1,0 +1,80 @@
+/* ======= */
+/* Команда */
+/* ======= */
+
+.team {
+    background-color: var(--secondary-bg-color)
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team .card {
+    background: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-list .item {
+    display: block;
+}
+
+.specialty {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height (ідентична висоті ящика) */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team-list .paragraph {
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height (ідентична висоті ящика) */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.team-list .content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-list .icon-speciality {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.team-list .icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.team-list .icon-speciality:hover .icon,
+.team-list .icon-speciality:focus .icon {
+    fill: var(--white-color);
+}
+
+.team-list .icon-speciality:hover,
+.team-list .icon-speciality:focus {
+    background-color: var(--accent-color);
+}
