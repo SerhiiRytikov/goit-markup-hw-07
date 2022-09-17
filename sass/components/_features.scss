@@ -4,16 +4,16 @@
 
 
 
-.features-list {
+.features__list {
     display: flex;
     justify-content: space-between;
 }
 
-.features-list .item {
+.features__item {
     width: 270px;
 }
 
-.icon-features {
+.features__thumb {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,12 +24,12 @@
     border-radius: 4px;
 }
 
-.features-list .icon {
+.features__icon {
     width: 70px;
     height: 70px;
 }
 
-.features-list .title {
+.features__title {
     margin-top: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -39,7 +39,7 @@
     text-transform: uppercase;
 }
 
-.features-list .paragraph {
+.features__text {
     font-size: 14px;
     line-height: 1.71;
 }

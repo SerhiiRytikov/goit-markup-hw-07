@@ -7,15 +7,15 @@
     justify-content: space-between;
 }
 
-.activities .item {
-    display: block;
-}
-
-.thumb {
+.activities__item {
     position: relative
 }
 
-.thumb .label {
+.activities__img {
+    display: block;
+}
+
+.activities__label {
     position: absolute;
     width: 100%;
     bottom: 0;
